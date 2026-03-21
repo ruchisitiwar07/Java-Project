@@ -6,6 +6,10 @@ public class Exercise {
        int age = 25;
        double height = 5.9;
        String name = "Alex";
+       byte code = 100;
+       int sum = 256;
+       sum = code;
+
        
       System.out.println("Name:" + name + ", Age:" + age + ", Height:" + height);
        
