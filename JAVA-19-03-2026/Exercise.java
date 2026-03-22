@@ -8,10 +8,11 @@ public class Exercise {
        String name = "Alex";
        byte code = 100;
        int sum = 256;
-       sum = code;
 
-       
-      System.out.println("Name:" + name + ", Age:" + age + ", Height:" + height);
+       // Keep sum useful by adding code, instead of discarding it
+       sum += code;
+
+      System.out.println("Name:" + name + ", Age:" + age + ", Height:" + height + ", Code:" + code + ", Sum:" + sum);
        
   }
 }
